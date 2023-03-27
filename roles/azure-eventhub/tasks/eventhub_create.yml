@@ -1,0 +1,11 @@
+---
+# tasks file for azure-eventhub
+- name: Create or Update instance of Event Hub
+  azure_rm_eventhub:
+    resource_group: "{{ resource_group }}"
+    location: eastus
+    namespace_name: myNamespace
+    name: myhub
+    tags:
+      a: b
+    sku: free

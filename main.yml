@@ -6,7 +6,7 @@
   become: true
   roles:
     - azure-keyvault
-    # - azure-eventhub
+    - azure-eventhub
     # - azure-iothub
     # - azure-dps
     # - azure-powerbi
