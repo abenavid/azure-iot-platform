@@ -1,5 +1,0 @@
----
-# tasks file for azure-iothub
-- name: Run Azure IoT Hub create task(s)
-  ansible.builtin.include_tasks: iothub_create.yml
-  loop: "{{ iothub }}"

@@ -1,6 +1,0 @@
----
-# tasks file for azure-iothub
-- name: Azure IoT Hub Create or Update
-  azure_rm_iothub:
-    name: "{{ item.name }}"
-    resource_group: "{{ resource_group }}"
