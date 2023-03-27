@@ -8,4 +8,4 @@
     name: "{{ item.name }}"
     tags:
       a: b
-    sku: free
+    sku: Basic
