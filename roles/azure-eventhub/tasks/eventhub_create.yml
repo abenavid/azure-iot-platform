@@ -4,8 +4,8 @@
   azure_rm_eventhub:
     resource_group: "{{ resource_group }}"
     location: eastus
-    namespace_name: myNamespace
-    name: myhub
+    namespace_name: "{{ item.namespace }}"
+    name: "{{ item.name }}"
     tags:
       a: b
     sku: free
