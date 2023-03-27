@@ -10,6 +10,6 @@
     # - azure-iothub
     # - azure-dps
     # - azure-powerbi
-  tasks:
-    - name: debugger
-      debug: hello
+  # tasks:
+  # - name: debugger
+  #   debug: hello
