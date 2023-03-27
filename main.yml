@@ -1,0 +1,13 @@
+---
+- name: Create/Update Azure IoT Platform
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  become: true
+  roles:
+    - azure-keyvault
+    # - azure-eventhub
+    # - azure-iothub
+    # - azure-dps
+    # - azure-powerbi
+  tasks:

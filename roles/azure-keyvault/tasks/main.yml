@@ -1,0 +1,5 @@
+---
+# tasks file for azure-keyvault
+- name: Run Azure Key Vault create task(s)
+  ansible.builtin.include_tasks: keyvault_create.yml
+  loop: "{{ keyvault }}" 
