@@ -1,7 +1,7 @@
 ---
 # tasks file for azure-keyvault
 - name: Create or Update instance of Key Vault
-  azure_rm_keyvault:
+  azure.azcollection.azure_rm_keyvault:
     resource_group: "{{ resource_group }}"
     vault_name: "{{ item.name }}"
     enabled_for_deployment: yes
