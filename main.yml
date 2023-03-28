@@ -7,7 +7,7 @@
   roles:
     - azure-keyvault
     - azure-eventhub
-    # - azure-iothub
+    - azure-iothub
     # - azure-dps
     # - azure-powerbi
   # tasks:
