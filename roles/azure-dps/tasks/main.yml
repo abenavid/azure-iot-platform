@@ -1,0 +1,5 @@
+---
+# tasks file for azure-dps
+- name: Run Azure Device Provisioning Service create task(s)
+  ansible.builtin.include_tasks: dps_create.yml
+  loop: "{{ dps }}" 
